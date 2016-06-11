@@ -374,7 +374,7 @@ public class MainPage extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(HashMap result) {
-            //tv.setText(result);
+
             Intent offer = new Intent("android.intent.action.OFFER");
             Set<String> resultSet =(Set<String>) result.get("resultSet");
             String[] resultArr = resultSet.toArray(new String[resultSet.size()]);
