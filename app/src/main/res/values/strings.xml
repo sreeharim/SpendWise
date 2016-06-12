@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Spend Wise</string>
+    <string name="action_settings">Settings</string>
+    <string name="localDB">LOCAL_DB</string>
+</resources>

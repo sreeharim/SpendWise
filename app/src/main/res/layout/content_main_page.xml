@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ms.moneysaver.MainPage"
+    tools:showIn="@layout/activity_main_page"
+    android:background="#ebebeb"
+    >
+     <ImageView
+         android:layout_height="65dp"
+         android:layout_width="match_parent"
+         />
+   
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/paytm_btn"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/paytm_logo"
+            android:background="@drawable/roundbutton"
+            android:textAllCaps="false"
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/fc_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+        android:drawableTop="@drawable/freecharge_logo"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:id="@+id/mk_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+        android:drawableTop="@drawable/mobikwik_logo"
+        android:drawablePadding="1dp"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/fp_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+        android:drawableTop="@drawable/foodpanda_logo"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/olacabs_logo"
+        android:id="@+id/ola_btn"
+        android:layout_margin="5sp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/uber_logo"
+        android:id="@+id/uber_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/merucabs_logo"
+        android:id="@+id/meru_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/taxiforsure_logo"
+        android:id="@+id/tfs_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/grofers_logo"
+        android:id="@+id/grofers_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/redbus_logo"
+        android:id="@+id/redbus_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableTop="@drawable/goibibo_logo"
+        android:id="@+id/goibibo_btn"
+        android:layout_margin="5dp"
+        android:background="@drawable/roundbutton"
+        android:textAllCaps="false"
+
+
+        />
+
+
+</LinearLayout>
